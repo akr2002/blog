@@ -1,8 +1,8 @@
 ---
-title: "{{ replace .TranslationBaseName "-" " " | title }}"
-date: {{ .Date }}
-lastmod: {{ .Date }}
-draft: true
+title: "Wow"
+date: 2022-03-11T07:22:33+05:30
+lastmod: 2022-03-11T07:22:33+05:30
+draft: false
 keywords: []
 description: ""
 tags: []
@@ -39,5 +39,5 @@ sequenceDiagrams:
   options: ""
 
 ---
-
+Some stuff ( ^-^)/
 <!--more-->
