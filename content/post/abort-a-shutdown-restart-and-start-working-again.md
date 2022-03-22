@@ -1,9 +1,9 @@
 ---
 title: "Abort a Shutdown Restart and Start Working Again"
 date: 2020-04-05T18:54:46+05:30
-lastmod: 2022-03-22T18:54:46+05:30
+lastmod: 2022-03-22T19:10:46+05:30
 draft: false
-keywords: []
+keywords: [shutdown, windows]
 description: ""
 tags: [shutdown, windows]
 categories: [windows]
