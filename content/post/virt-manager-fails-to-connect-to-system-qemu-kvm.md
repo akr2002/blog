@@ -14,7 +14,7 @@ author: ""
 comment: false
 toc: false
 autoCollapseToc: false
-postMetaInFooter: false
+postMetaInFooter: true
 hiddenFromHomePage: false
 # You can also define another contentCopyright. e.g. contentCopyright: "This is another copyright."
 contentCopyright: false
@@ -41,3 +41,14 @@ sequenceDiagrams:
 ---
 
 <!--more-->
+
+```
+error: Requested operation is not valid: network 'default' is not active
+```
+
+## Fix
+Run as root
+```bash
+virsh net-autostart default
+virsh net-start default
+```
