@@ -1,7 +1,7 @@
 ---
 title: "Install and Configure Arch Linux in WSL/WSL2 with GUI"
-date: 2022-04-16T13:57:56+05:30
-lastmod: 2020-10-25T13:57:56+05:30
+date: 2020-10-25T13:57:56+05:30
+lastmod: 2022-04-16T13:57:56+05:30
 draft: false
 keywords: [wsl arch]
 description: ""
