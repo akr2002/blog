@@ -192,7 +192,7 @@ The instructions thus far will provide us a working bare minimum Arch Linux envi
 ```bash
 pacman -S grub
 grub-install /dev/vda
-grub-mkconfig -p /boot/grub/grub.cfg
+grub-mkconfig -o /boot/grub/grub.cfg
 ```
 #### What is happening here?
 - First we install grub package.
