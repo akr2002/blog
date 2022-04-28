@@ -1,20 +1,20 @@
 ---
 title: "I Am a Linux User and I Have to Use Windows for Some Reason"
-date: 2022-04-28T05:32:59Z
+date: 2021-02-14T05:32:59Z
 lastmod: 2022-04-28T05:32:59Z
-draft: true
-keywords: []
+draft: false
+keywords: [linux windows wsl]
 description: ""
-tags: []
-categories: []
+tags: [windows]
+categories: [linux]
 author: ""
 
 # You can also close(false) or open(true) something for this content.
 # P.S. comment can only be closed
 comment: false
-toc: false
+toc: true
 autoCollapseToc: false
-postMetaInFooter: false
+postMetaInFooter: true
 hiddenFromHomePage: false
 # You can also define another contentCopyright. e.g. contentCopyright: "This is another copyright."
 contentCopyright: false
