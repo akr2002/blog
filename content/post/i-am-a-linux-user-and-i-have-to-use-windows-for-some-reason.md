@@ -279,7 +279,7 @@ Click on *View* tab and check *File name externsions* box.
 ## Connect to an FTP server using FIle Explorer
 This works the same as Nautilus or Dolphin. Press **Win+E** > **Ctrl+L**. Now you will be presented to the address bar. Enter FTP address and continue as normal.
 
-## See all STart menu apps in FIle Explorer
+## See all Start menu apps in FIle Explorer
 Honestly, I haven't seen its use case except [one]({{< ref "/post/abort-a-shutdown-restart-and-start-working-again.md" >}}) but it is deifnitely neat. Press **Win+E** > **Ctrl+L**, type `shell:AppsFolder` and hit Enter.
 
 {{% center %}}
