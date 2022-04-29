@@ -40,9 +40,9 @@ sequenceDiagrams:
 
 ---
 
-<!--more-->
-
 Well you might have reasons to use Windows 10 and be without an alternative. In that case it is super important to have it NOT get in your way as should be the case. The biggest issues I see people face are forced updates, telemetry, and the computer slowing down over time. There are third-party solutions to all of these problems but here I will write about the ones you can fix yourself.
+
+<!--more-->
 
 ## "Fix" automatic updates
 ### Disable automatic updates

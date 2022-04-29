@@ -40,9 +40,9 @@ sequenceDiagrams:
 
 ---
 
-<!--more-->
-
 If you are here then I assume you already know the purpose of using code-server. So why on phone? Phones these days have become quite powerful. Maybe you have an older laptop lying around. The existence of code-server on Android implies there is at least one use case being fulfilled. So I will not pursue the topic any further.
+
+<!--more-->
 
 ## Install Termux
 Get it from [F-Droid](https://f-droid.org/packages/com.termux/).

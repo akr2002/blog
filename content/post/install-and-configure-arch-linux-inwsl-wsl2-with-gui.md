@@ -40,9 +40,9 @@ sequenceDiagrams:
 
 ---
 
-<!--more-->
+This post is divided into two parts: (i) Install Arch in WSL, (ii) Configure as per your needs. Each part can be followed independently so if you are not a fan of GUI programs in WSL, leaving the part is perfectly fine.
 
-This article is divided into two parts: (i) Install Arch in WSL, (ii) Configure as per your needs. Each part can be followed independently so if you are not a fan of GUI programs in WSL, leaving the part is perfectly fine.
+<!--more-->
 
 ## Part 0: FOr those running Windows 10 2004 or above
 Download and install Linux kernel updae package from [Microsoft's site](https://docs.microsoft.com/en-us/windows/wsl/wsl2-kernel). Set default version to WSL2 by running

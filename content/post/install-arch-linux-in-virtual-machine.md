@@ -40,9 +40,9 @@ sequenceDiagrams:
 
 ---
 
-<!--more-->
-
 Installing Arch Linux on a KVM/QEMU virtual macin eis a fairly startightforward process. We will use command line approach in this post.
+
+<!--more-->
 
 ## Create a virtual machine
 Here we use `virt-install` to create a virtual machine. Run the following as root:

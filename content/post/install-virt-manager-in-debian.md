@@ -40,9 +40,9 @@ sequenceDiagrams:
 
 ---
 
-<!--more-->
-
 `virt-manager` or *Virtual Machine Manager* is a frontend for managing virtual machines through *libvirt*. It primarily targets KVM virtual machines but is also capable of managing Xen and LXC. In this post we will focus on KVM.
+
+<!--more-->
 
 *All commands in this post are supposed to be run as root.*
 

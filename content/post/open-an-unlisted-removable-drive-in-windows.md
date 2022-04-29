@@ -40,9 +40,9 @@ sequenceDiagrams:
 
 ---
 
-<!--more-->
 It might happen that you connected your USB stick but it did not show up in File Explorer. Maybe it is formatted with a filesystem not recognised by Windows or there might be some other reason. 
 
+<!--more-->
 In my case it was an NTFS formatted USB stick which in theory should be recognised by Windows but it did not or it refused to assign it a drive letter as was in my case. So before you think your removable drive has broken and start with a data recovery tool, follow the instructions here.
 
 ## Open elevated Command Prompt

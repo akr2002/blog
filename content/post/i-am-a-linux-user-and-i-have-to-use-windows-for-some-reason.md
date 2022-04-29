@@ -40,9 +40,9 @@ sequenceDiagrams:
 
 ---
 
-<!--more-->
-
 Some tips to make your work easier. Believe me, Windows is not as alien thing as you want to beleive. Most of the work can be done form command line (as you usually would on Linux). Applies to regular Windows users as well.
+
+<!--more-->
 
 This is essentially one of the four blog posts. Don't worry, you will find the other three as you read.
 

@@ -40,9 +40,9 @@ sequenceDiagrams:
 
 ---
 
-<!--more-->
-
 Open elevated Command Prompt by hitting **Win+R > cmd > Ctrl+Shift+Enter > Yes**.
+
+<!--more-->
 
 ## Using DiskPart
 Type in `diskpart` and hit Enter.

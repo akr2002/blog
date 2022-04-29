@@ -40,9 +40,9 @@ sequenceDiagrams:
 
 ---
 
-<!--more-->
-
 In my case it was Windows 10 + Manjaro dual boot but it should work for other distributions with single boot as well.
+
+<!--more-->
 
 *P.S.: There may be other ways to fix this but I am writing here what worked for me. Also, I am not responsible if your stuff breaks by following the steps here.*
 

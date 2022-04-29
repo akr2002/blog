@@ -40,9 +40,9 @@ sequenceDiagrams:
 
 ---
 
-<!--more-->
-
 I don't know why would someone want to abort a shutdown or a restart and start working again.
+
+<!--more-->
 
 **Prerequisite:** The computer must be in Shutting Down/Restarting screen and be crazy fast before the shutdown/restart process completes.
 

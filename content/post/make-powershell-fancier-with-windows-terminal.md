@@ -40,9 +40,9 @@ sequenceDiagrams:
 
 ---
 
-<!--more-->
 *because why not*
 
+<!--more-->
 # Install PowerShell Core
 Or you can continue using PowerShell 5.1 if you wish.
 

@@ -40,11 +40,11 @@ sequenceDiagrams:
 
 ---
 
-<!--more-->
-
 You're probably here because you took fancy to the beauty of dde and want to try it.
 
 Installing dde on Manjaro shouldn't really be much of an issue as long as Arch supports it.
+
+<!--more-->
 
 Now open a terminal and make sure you have the latest and the greatest of Manjaro:
 ```bash

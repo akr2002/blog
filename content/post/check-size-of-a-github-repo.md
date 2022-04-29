@@ -40,11 +40,11 @@ sequenceDiagrams:
 
 ---
 
-<!--more-->
-
 Just a shell script.
 
 Requirements: curl, jq, GNU Coreutils
+
+<!--more-->
 
 ```bash
 #!/bin/sh
