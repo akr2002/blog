@@ -40,6 +40,6 @@ sequenceDiagrams:
 
 ---
 
-Using normal methods to copy sparse files will only take up so much time and actual storage. Pass `-S` to rsync to tell you are transgerring sparse files and it take care of it.
+Using normal methods to copy sparse files will only take up so much time and actual storage. Pass `-S` to rsync to tell you are transferring sparse files and it take care of it.
 <!--more-->
 For other methods to copy a sparse file, refer to this [StackExchange post](https://serverfault.com/questions/665335/what-is-fastest-way-to-copy-a-sparse-file-what-method-results-in-the-smallest-f).
