@@ -40,7 +40,7 @@ sequenceDiagrams:
 
 ---
 
-This si not the same `sudo` you use in \*nix systems. It just shares the name.
+This is not the same `sudo` you use in \*nix systems. It just shares the name.
 
 It is quite tiresome to launch a new instance of the running program with admin privilege.
 
