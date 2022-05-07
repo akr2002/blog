@@ -1,7 +1,7 @@
 ---
 title: "Install Arch Linux in Virtual Machine (KVM/QEMU)"
 date: 2022-04-22T06:52:27Z
-lastmod: 2022-04-22T06:52:27Z
+lastmod: 2022-05-07T06:52:27Z
 draft: false
 keywords: [kvm qemu arch vm "virtual machine" libvirt]
 description: ""
@@ -40,7 +40,7 @@ sequenceDiagrams:
 
 ---
 
-Installing Arch Linux on a KVM/QEMU virtual macin eis a fairly startightforward process. We will use command line approach in this post.
+Installing Arch Linux on a KVM/QEMU virtual machine is a fairly startightforward process. We will use command line approach in this post.
 
 <!--more-->
 
