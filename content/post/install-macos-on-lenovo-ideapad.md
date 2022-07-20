@@ -1,5 +1,5 @@
 ---
-title: "Install Macos on Lenovo Ideapad"
+title: "Install MacOS on Lenovo Ideapad"
 date: 2022-07-20T20:46:40+05:30
 lastmod: 2022-07-20T20:46:40+05:30
 draft: false 
@@ -41,15 +41,15 @@ sequenceDiagrams:
 ---
 It's Hackintosh.
 <!--more-->
-I was a bit curious about how using MacOS feels like. I had a spare hard disk lying around so I thought might as well give it a shot while I am still in the mood for it. 
+I was a bit curious about how using MacOS feels like. I had a spare disk lying around so I thought might as well give it a shot while I am still in the mood for it. 
 
-How you install it depends on your hardware. On some it can be as easy as distrohopping, wheareas on the others you might end up patching EFI along with other stuff. That being said, nothing guarantess your experience would be a good one. Some hardware may not work, animations might by choppy and the whole thing may be laggy. However, my mind wouldn't be at ease knowing I quit without even trying.
+How you install it depends on your hardware. On some it can be as easy as distrohopping, wheareas on the others you might end up patching EFI along with other stuff. That being said, nothing guarantees your experience would be a good one. Some hardware may not work, animations might by choppy and the whole thing may be laggy. However, my mind wouldn't be at ease knowing I quit without even trying.
 
 ## Obtaining the image
 This is a hard part. Most sites will ask you to download the updater, which, well only works on MacOS. I got it from a dodgy looking website, hidden behind ads, ads and more ads, that do not give you the link unless you click on the ads. I think the person who made the patched images does not even get the money because they host the torrents alongside other patches on their own website. I didn't go for torrent because it did not work. You will find a link to the website that hosts the torrents and patches in the next section.
 
 ## Preparing to install
-If you are on Intel Core series or certain Lenovo laptops, you will need a patch for the EFI. It's [here](https://olarila.com/files/?dir=OPENCORE1). Once you have finished burning the image to the bootable stick, you will need to mount it, delete the existing EFI directory and put the patched one in it's place.
+If you are on Intel Core series or certain Lenovo laptops, you will need a patch for the EFI. It's [here](https://olarila.com/files/?dir=OPENCORE1). Once you have finished burning the image to the bootable stick, you will need to mount it, delete the existing EFI directory and put the patched one in its place.
 
 ## Installing MacOS
 Boot the image. Select Disk Utility and find the storage device for MacOS. Format it with APFS. Going along with the defaults should be fine. Now go back and click on the install button. Follow the promts and it should start installing. This will take a long time with a couple of reboots, to the point you might end up feeling it has frozen. Of course, it depends on the hardware. Apple has no obligation to care about the Mac experience on the devices that are not Macs. 
