@@ -44,7 +44,7 @@ Do not edit `/etc/resolv.conf`. It will likely be replaced by NetworkManager.
 Open a shell and add nameserver for existing connection.
 
 ```bash
-nmcli con $ssid ipv4.dns "1.1.1.1 1.0.0.1"
+nmcli con mod $ssid ipv4.dns "1.1.1.1 1.0.0.1"
 ```
 The SSID can be found with `nmcli con`.
 
