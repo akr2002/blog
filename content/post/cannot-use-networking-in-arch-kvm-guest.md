@@ -1,5 +1,5 @@
 ---
-title: "Cannot use uetworking in Arch KVM guest"
+title: "Cannot use networking in Arch KVM guest"
 date: 2021-06-24T07:08:04Z
 lastmod: 2022-04-29T07:08:04Z
 draft: false 
