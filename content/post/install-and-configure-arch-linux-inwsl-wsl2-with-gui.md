@@ -44,7 +44,7 @@ This post is divided into two parts: (i) Install Arch in WSL, (ii) Configure as 
 
 <!--more-->
 
-## Part 0: FOr those running Windows 10 2004 or above
+## Part 0: For those running Windows 10 2004 or above
 Download and install Linux kernel updae package from [Microsoft's site](https://docs.microsoft.com/en-us/windows/wsl/wsl2-kernel). Set default version to WSL2 by running
 ```powershell
 wsl --set-default-version 2
