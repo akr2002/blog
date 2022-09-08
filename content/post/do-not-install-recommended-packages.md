@@ -41,7 +41,7 @@ sequenceDiagrams:
 ---
 This applies only if you use Debian or Ubuntu or any distribution that uses apt package manager.
 <!--more-->
-Normally when you run `apt install`, it will automatically install a lot of optional packages, without which your intended package will work perfectly fine since these are *optional*. They just take consume more bandwidth and a lot more diskpace. These will only add up as you update your system over time. 
+Normally when you run `apt install`, it will automatically install a lot of optional packages, without which your intended package will work perfectly fine since these are *optional*. They just consume more bandwidth and a lot more diskpace. These will only add up as you update your system over time. 
 
 Now, there are two ways to get rid of this behaviour. Pass `--no-install-recommends` to apt everytime you install a package, or put it in `/etc/apt/apt.conf.d/99-no-install-recommend` to avoid typing it every time.
 
