@@ -145,7 +145,7 @@ On the page,
 
 Rest of the options should be left as is unless you have other requirements.
 
-Click on Install Gitea. It should write the configuration to `/etc/gitea/app.ini` and ready for use.
+Click on Install Gitea. It should write the configuration to `/etc/gitea/app.ini` and be ready for use.
 
 Now change permissions on `/etc/gitea` to make it read-only.
 ```bash
