@@ -56,10 +56,10 @@ makepkg -si
 ```
 
 ## Download and configure OpenRC script
-The [script](https://banyan.divineduty.xyz/GNUxeava/code-server-openrc) is pretty generic and should work on most OpenRC-based distributions with minimal tweaks. You just need to download it, make it executable and put your username in line 3.
+The [script](https://gitea.adityakumar.xyz/aditya/code-server-openrc) is pretty generic and should work on most OpenRC-based distributions with minimal tweaks. You just need to download it, make it executable and put your username in line 3.
 ```bash
 cd /etc/init.d/
-sudo wget -c https://banyan.divineduty.xyz/GNUxeava/code-server-openrc/raw/branch/master/code-server 
+sudo wget -c https://gitea.adityakumar.xyz/aditya/code-server-openrc/raw/branch/master/code-server 
 sudo chmod +x code-server 
 ```
 
