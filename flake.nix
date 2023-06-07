@@ -4,7 +4,7 @@
   inputs.nixpkgs.url = "github:nixos/nixpkgs/23.05";
 
   outputs = { self, nixpkgs }: {
-    with import nixpkgs { system = "x86_64-linux"; };
+    packages.x86_64-linux.default = with import nixpkgs { system = "x86_64-linux"; };
     stdenv.mkDerivation {
         name = "blog";
         buildInputs = [
@@ -13,7 +13,7 @@
         ];
         src = self;
         buildPhase = "hugo server";
-        installPhase = "./deploy.sh"
+        installPhase = "./deploy.sh";
       };
   };
 }
