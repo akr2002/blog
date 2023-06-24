@@ -53,7 +53,7 @@ To enable Bluetooth support on NixOS, you need to add the following line to your
 hardware.bluetooth.enable = true;
 ```
 
-This will enable the hardware.bluetooth module that provides the necessary drivers and services for Bluetooth. You can also customize some options such as the device name, the pin code and the power management settings. For more details, you can check the [NixOS manual](https://nixos.org/manual/nixos/stable/index.html#sec-hardware-bluetooth).
+This will enable the hardware.bluetooth module that provides the necessary drivers and services for Bluetooth. You can also customize some options such as the device name, the pin code and the power management settings. For more details, you can check the [NixOS Wiki](https://nixos.wiki/wiki/Bluetooth).
 
 If you want to check the battery status of your Bluetooth devices, you need to enable the experimental feature of BlueZ by adding the following snippet to your configuration.nix file:
 
