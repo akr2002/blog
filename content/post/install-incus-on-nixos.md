@@ -1,7 +1,7 @@
 ---
 title: "Install Incus on Nixos"
 date: 2024-02-29T19:14:10+05:30
-lastmod: 2024-02-29T19:14:10+05:30
+lastmod: 2024-03-16T00:21:10+05:30
 draft: false;
 keywords: [incus, nixos]
 description: ""
@@ -73,7 +73,7 @@ networking.bridges = { incusbr0.interfaces = []; };
 ```
 This is used to provide NAT'd internet to the guest. It is manipulated directly by incus, so no need to specify any bridged interfaces here.
 
-Add firewall rules to enable networking in the container
+<s>Add firewall rules to enable networking in the container
 ```nix
 networking.firewall.extraCommands = ''
     iptables -A INPUT incusbr0 -j ACCEPT
@@ -82,8 +82,16 @@ networking.firewall.extraCommands = ''
     iptables -A OUTPUT -o incusbr0 -j ACCEPT
 '';
 ```
+</s>
 
+Incus on NixOS dropped `iptables` support and recommends using `nftables`. Enable `nftables` and add `incusbr0` to trusted interfaces.
+
+```nix
+networking.nftables.enable = true;
+networking.firewall.trustedInterfaces = [ "incusbr0" ];
+```
 Enable lxcfs to use it
+
 ```nix
 virtualisation.lxc.lxcfs.enable = true;
 ```
