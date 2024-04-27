@@ -39,23 +39,35 @@ sequenceDiagrams:
   options: ""
 ---
 
-There will arise situations when you will want to share files between host and container. The solution is just a one liner.
+When working with containers, managing file sharing between the host system and container
+can often pose a challenge. However, there is an easy-to-use solution that simplifies this
+process using just one line of code! This blog post will guide you on how to share files
+effortlessly by leveraging Incus's `incus config` command.
 
 <!--more-->
 
-It follows the following syntax:
+## The One Liner Solution:
+
+If you're looking to share a specific directory containing your container data, here is the
+one-liner syntax for adding the file source and path within the container configuration:
 
 ```
-incus config device add <container> <device name> disk source=</path/to/directory/> path=</mount/point/in/conainer>
+incus config device add <container> <device name> <device type> source=/<path/to/directory/> path=/<mount/point/in/container>
 ```
 
-Example:
+To give you a better understanding, let's look at an example. Suppose we have a container
+named `container1` and want to share files located in the `/srv/movies` directory with a mount point of `/mnt/movies` within the container itself:
 
 ```
-incus config device add conatiner1 movies disk source=/srv/movies path=/mnt/movies
+incus config device add container1 movies disk source=/srv/movies path=/mnt/movies
 ```
 
-Or if you are feeling special, you can directly edit the config with `incus config edit <container>`, following the previous example:
+## Alternative Method for Advanced Users:
+
+If you're feeling adventurous and want to directly edit the configuration, Incus provides
+an alternative method. With this approach, you can leverage YAML syntax within your
+container configuration file with `incus config edit <container>`. Here is how it works using our
+previous example:
 
 ```yaml
 dveices:
@@ -64,3 +76,5 @@ dveices:
     source: /srv/movies
     type: disk
 ```
+
+Happy hacking!
